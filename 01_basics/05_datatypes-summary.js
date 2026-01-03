@@ -36,3 +36,10 @@ const myFunction = function(){
 }
 console.log(typeof myFunction);
 console.log(myFunction);
+
+//------------------------------------------------------------
+// stack memory is used for primitive datatypes while heap memory is used in non-primitives datetypes
+let myYoutubeName = "hitesh choudhary"
+let anotherName = myYoutubeName
+console.log(anotherName)
+
