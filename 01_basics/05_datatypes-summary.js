@@ -40,6 +40,29 @@ console.log(myFunction);
 //------------------------------------------------------------
 // stack memory is used for primitive datatypes while heap memory is used in non-primitives datetypes
 let myYoutubeName = "hitesh choudhary"
-let anotherName = myYoutubeName
-console.log(anotherName)
+let anotherName = myYoutubeName//it is the copy of the myYoutubeName
+anotherName = "chai our code" //value updated 
+console.log(anotherName) //It print the updated value i.e. chai our code
+console.log(myYoutubeName)//It print the original value i.e hitesh choudhary
+
+let user1={//object 
+    email: "md@google.com",
+    upi: "md@ybl"
+}
+let user2 = user1 //it give the reference of the original value
+user2.email = "Ezaz@google.com";
+console.log(user1)//Ezaz@google.com
+console.log(user2)//Ezaz@google.com
+
+
+
+
+
+
+
+
+
+
+
+
 
